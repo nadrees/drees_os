@@ -6,6 +6,9 @@ edition = "2021"
 [dependencies]
 bootloader_api = "0.11.10"
 
+[build-dependencies]
+bootloader = "0.11.10"
+
 [profile.dev]
 panic = "abort"
 
